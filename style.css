@@ -26,6 +26,7 @@ header{
 
 img{
     margin-top: 50px;
+    user-select: none;
 }
 
 .botaoMenu{
@@ -74,4 +75,47 @@ img{
     margin-top: 65px;
     margin-left: 150px;
     margin-right: -100px;
+}
+
+main{
+    width: 100vw;
+    height: 100vh;
+    padding: 20vh 10vw;
+    display: flex;
+    flex-direction: column;
+}
+
+main h1{
+    font-size: 120px;
+    color: rgb(218,167,106);
+    font-family: cooper-black-std, serif;
+    font-style: normal;
+    user-select: none;
+}
+
+main h2{
+    font-size: 50px;
+    font-family: 'Old Standard TT', serif;
+    font-weight: 100;
+    user-select: none;
+}
+
+main p{
+    font-size: 25px;
+    font-weight: 200;
+    max-width: 800px;
+}
+
+.img{
+    right: 530px; 
+    position:absolute;
+    width: 150px;
+    -webkit-filter: drop-shadow(10px 10px 10px #222);
+    filter: drop-shadow(10px 10px 10px #222);
+} 
+
+.prato{
+    width: 285%;
+    height: auto;
+    margin-top: -70px;
 }
