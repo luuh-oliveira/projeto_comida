@@ -21,7 +21,6 @@ header{
     display: flex;
     padding: 0 10vw;
     align-items: center;
-
 }
 
 img{
@@ -87,9 +86,34 @@ img{
     margin-right: -100px;
 }
 
+#divBusca{
+    display: none;
+}
+
+#txtBusca{
+    float:left;
+    background-color:transparent;
+    padding-left:5px;
+    font-size:18px;
+    border:none;
+    height:32px;
+    width:180px;
+}
+  
+.pesquisar p:hover #divBusca{
+    display:flex;
+    background-color:rgb(252, 155, 120);
+    border:solid 2px rgb(236, 111, 65);
+    border-radius:10px;
+    width: 180px;
+    height:32px;
+    margin-top: 140px;
+    margin-left: -70px;
+}
+
 main{
-    width: 100vw;
-    height: 100vh;
+    width: 50vw;
+    height: 50vh;
     padding: 20vh 10vw;
     display: flex;
     flex-direction: column;
@@ -160,7 +184,7 @@ main a {
 }
 
 main .botaoExplore:hover{
-    background-color: rgb(224, 181, 129);
+    background-color: rgba(218, 168, 106, 0.74);
     color: white;
 }
 
